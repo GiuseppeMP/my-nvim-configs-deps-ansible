@@ -3,6 +3,9 @@ homebrew:
     packages:
         - git
         - make
+        - ansible
+        - fzf
+        - zoxide
     taps:
         - homebrew/cask
         - homebrew/cask-fonts
