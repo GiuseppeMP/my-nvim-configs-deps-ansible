@@ -11,6 +11,5 @@
   name: Add taps
   with_items: '{{ homebrew.taps }}'
 
-- homebrew: name={{ item }} state=latest
+- homebrew: name={{ homebrew.packages }} state=latest
   name: Install packages
-  with_items: '{{ homebrew.packages }}'
