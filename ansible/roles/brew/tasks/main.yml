@@ -1,0 +1,8 @@
+---
+# Homebrew
+
+- homebrew: update_homebrew=yes
+  name: Make sure we're using the latest Homebrew
+
+- homebrew: upgrade_all=yes
+  name: Upgrade any already-installed formulae
