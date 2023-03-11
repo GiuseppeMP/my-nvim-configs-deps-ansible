@@ -1,0 +1,8 @@
+homebrew:
+    application_dir: ~/Applications
+    packages:
+        - git
+    taps:
+        - homebrew/cask
+        - homebrew/cask-fonts
+
