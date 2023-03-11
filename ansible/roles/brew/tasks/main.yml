@@ -6,3 +6,7 @@
 
 - homebrew: upgrade_all=yes
   name: Upgrade any already-installed formulae
+
+- homebrew_tap: tap={{ item }}
+  name: Add taps
+  with_items: '{{ homebrew.taps }}'
