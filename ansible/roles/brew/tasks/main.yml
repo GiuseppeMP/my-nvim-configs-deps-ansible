@@ -10,3 +10,6 @@
 - homebrew_tap: tap={{ item }}
   name: Add taps
   with_items: '{{ homebrew.taps }}'
+
+- homebrew: name='{{ homebrew.packages }}'
+  name: Install packages
