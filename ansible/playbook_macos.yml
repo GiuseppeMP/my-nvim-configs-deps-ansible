@@ -1,6 +1,0 @@
----
-- hosts: my_machine
-  become_method: sudo
-  roles:
-     - asdf
-     - brew

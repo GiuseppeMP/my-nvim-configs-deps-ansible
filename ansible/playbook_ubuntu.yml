@@ -1,6 +1,6 @@
 ---
-- hosts: my_machine
-  become_method: sudo
+- become_method: sudo
+  hosts: my_machine
   roles:
      - asdf
      - apt

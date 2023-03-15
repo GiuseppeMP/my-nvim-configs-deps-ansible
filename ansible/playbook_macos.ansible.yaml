@@ -1,0 +1,12 @@
+---
+- become: yes
+  hosts: my_machine
+  name: install asdf
+  roles:
+    - asdf
+  vars:
+    asdf_plugins:
+      - name: erlang
+      - name: elixir
+      - name: nodejs
+        versions: ["8.11.3"]
